@@ -1,0 +1,292 @@
+
+body{
+    margin: 0;
+    background-color:rgb(9, 10, 10);
+    color:white;
+    
+
+}
+
+:root{
+    --primary: #30FBEF;
+}
+
+*{
+    font-family: 'Montserrat';
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.navbar h1{
+    color: var(--primary)
+}
+
+.navbar .active{
+    color: var(--primary)
+}
+
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.navbar button{
+    background-color: #282828;
+    color: var(--primary);
+    padding : 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 100px ;
+}
+
+.hero .content h1{
+    font-size: 50px;
+    color: var(--primary);
+}
+
+.hero .content{
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+}
+
+.hero .content button{
+    background-color: #282828;
+    color: white;
+    padding : 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+.hero img{
+    max-width: 400px;
+}
+
+.features{
+    padding: 20px 100px ;
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.features .feature{
+    max-width: 200px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.features .feature .featureIcon i{
+    font-size: 100px;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+}
+
+.features .feature p{
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.features .feature h2{
+    color: var(--primary);
+}
+
+.features .feature button{
+    background-color: black;
+    border: none;
+    color: var(--primary);
+}
+
+
+.subscription{
+    display: flex;
+    border: 1px solid black;
+    max-width: 150px;
+}
+
+.subscription input{
+    border: none;
+    outline: none;
+}
+
+.subscription button{
+    border: none;
+    background-color: white;
+    width: 100px;
+}
+
+
+.hero-1{
+    display: flex;
+    justify-content:space-around;
+    padding:20px 100px;
+    
+    
+}
+
+.hero-1 .side-2 h2{
+    font-size:50px;
+    color:var(--primary);
+}
+
+.side img{
+    max-width:700px;
+
+
+}
+
+.side-2 p{
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.feature button{
+    display:flex;
+    
+}
+
+.h-3{
+    display:flex;
+    padding:20px 100px;
+    justify-content: space-around;
+}
+
+.side-4 img{
+    max-width:500px;
+    
+}
+
+.side-3 h2{
+    font-size:50px;
+    color:var(--primary);
+}
+
+.side-3 {
+    font-weight:17px;
+    line-height:29px;
+    padding-left:100px;
+}
+
+
+.h-4  {
+    display:flex;
+    justify-content:space-around;
+}
+
+.side-7{
+   margin-top:35px;
+}
+
+.side-7 h2{
+    color:var(--primary);
+}
+
+.side-6 h2{
+    color:var(--primary);
+}
+
+.h-5{
+    display:flex;
+    justify-content:space-around;
+    margin-top:107px;
+
+}
+
+.side-9{
+    display:flex;
+    align-items:center;
+}
+
+.side-8 h3{
+    color:var(--primary);
+}
+
+.h-6{
+    display:flex;
+    justify-content:space-around;
+}
+
+.side-11 button{
+    border-radius:20 px;
+    margin-right:20px;
+}
+
+.side-10 h3{
+    color:var(--primary);
+}
+
+.side-11{
+    display:flex;
+    align-items:center;
+
+}
+
+h-8{
+    display:flex;
+    justify-content:space-around;
+}
+
+
+input{
+    padding: 3px 35px;
+}
+
+.side-11 button{
+    border-radius:50px;
+    padding:10px 20px;
+    border:none;
+    background-color:#282828;
+    font-weight:400px;
+    box-shadow: 3px 4px 8px;
+}
+
+.btn-6{
+    
+    color:white;
+}
+
+.btn-7{
+    color:#9C69E2;
+}
+
+.img-1{
+    width:90px;
+    height:90px;
+}
+
+
+.h-8 .side-12{
+    display:flex;
+    align-items:center;
+}
+
+
+
+.p-1{
+    display:flex;
+    justify-content:space-around;
+}
