@@ -290,3 +290,52 @@ input{
     display:flex;
     justify-content:space-around;
 }
+
+.footer{
+    padding: 50px 200px;
+    color: var(--primary);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h5{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.footer .footerAddress div{
+    padding: 3px 0px;
+}
+
+.footer .footerAddress1, .footerAddress2{
+    margin-top: 10px;
+}
+
+.footer .footerLinks{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footerLinks a{
+    text-decoration: none;
+    color: var(--primary);
+    padding: 7px 0px;
+}
+
+.footer .footerLinks span{
+    padding: 25px 0px ;
+}
+
+
+.footer .footerSocial .socialLinks{
+    color: white;
+    font-size: 30px;
+}
+
+.footer .footerSocial .socialLinks i{
+    margin-top:15px;
+    margin-right: 20px;
+    background-color: #302c2c;
+    padding: 15px;
+    border-radius: 50%;
+}
